@@ -1,0 +1,21 @@
+server:
+  port: 9005
+spring:
+  application:
+    name: tensquare-gathering
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.25.130:3306/tensquare_gathering?useSSL=false
+    username: root
+    password: 123
+
+
+  jpa:
+    show-sql: true #显示sql语句
+    hibernate:
+      ddl-auto: update  # 配置开启自动更新表结构
+    database: mysql
+    properties:
+      hibernate:
+        format_sql: true  #格式化sql语句
+    open-in-view: true

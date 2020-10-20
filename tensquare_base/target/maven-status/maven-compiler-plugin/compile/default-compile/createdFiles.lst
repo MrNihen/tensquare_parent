@@ -1,0 +1,4 @@
+com\tensquare\base\exception\BaseExceptionHandler.class
+com\tensquare\base\pojo\Label.class
+com\tensquare\base\controller\LabelController.class
+com\tensquare\base\BaseApplication.class
